@@ -10,5 +10,6 @@ int main()
     {
         if((numbers[i-1]<numbers[i]) && (numbers[i]<numbers[i+1]))
         cout << numbers[i] << "It's now in an increasing order";
+        cout << "Test";
     }
 }
